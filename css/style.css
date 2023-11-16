@@ -138,9 +138,13 @@
     grid-gap: 10px;
     display: grid;
     
-    background-image: url("../img/img_papas4.jpg");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url("../img/img_papas4.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    
     color: white;
     grid-template-rows: repeat(9,1fr);
    
@@ -153,7 +157,7 @@
     font-family: 'Great Vibes', cursive;
     font-size: 3vh;
     grid-row: 1/5;
-    margin: 10%;
+    margin: 5% 5% 5% 5%;
     text-align: justify;
     
 }
@@ -198,17 +202,21 @@
 #InvPadrino > label:nth-child(1){
 
     display: flex;
+    margin: 40% 10% 0% 10%;
     align-items: end;
     justify-content: center;
     font-family: 'Rouge Script', cursive;
     font-size: 4vh;
-    grid-row: 3/3;
+    background-color: rgba(236, 189, 183, 0.7);
+    grid-row: 2/2;
 }
 #InvPadrino > label:nth-child(2){
 
     font-family: 'Great Vibes', cursive;
     font-size: 3vh;
-    grid-row: 4/4;
+    margin: 0% 10% 40% 10%;
+    background-color: rgba(236, 189, 183, 0.7);
+    grid-row: 3/3;
 }
 /*+++++++++++++++++++++++Seccion papas FIN+++++++++++++++++++++++++++*/
 
@@ -506,7 +514,10 @@ span{
     height: 100vh;
     display: grid;
     text-align: center;
-    background-image: url("../img/fondo_papas_01.jpg");
+    background-image: linear-gradient(
+        rgba(236, 189, 183, 0.2),
+        rgba(236, 189, 183, 0.2)
+    ), url("../img/fondo_papas_01.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: 70%;
@@ -514,6 +525,8 @@ span{
 }
 .InvGracias > div:nth-child(1){
    
+    background-color: #ca9a94;
+    padding-top: 10%;
     align-items: center;
     justify-content: center;
 
@@ -524,7 +537,8 @@ span{
 .InvGracias  > div:nth-child(1) > h1{
 
     font-family:'Great Vibes', cursive; 
-    font-size: calc(2em + 1vw);;
+    font-size: calc(2em + 1vw);
+    color: white;
 }
 /*******************Fin Despadida***********************/
 
