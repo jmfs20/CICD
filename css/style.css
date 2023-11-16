@@ -515,8 +515,8 @@ span{
     display: grid;
     text-align: center;
     background-image: linear-gradient(
-        rgba(236, 189, 183, 0.2),
-        rgba(236, 189, 183, 0.2)
+        rgba(236, 189, 183, 0.3),
+        rgba(236, 189, 183, 0.3)
     ), url("../img/fondo_papas_01.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -525,7 +525,7 @@ span{
 }
 .InvGracias > div:nth-child(1){
    
-    background-color: #ca9a94;
+    background-color: #fac5be;
     padding-top: 10%;
     align-items: center;
     justify-content: center;
