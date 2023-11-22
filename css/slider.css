@@ -1,7 +1,7 @@
 .slider{
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 70vh;
+    height: 40vh;
     transform-style: preserve-3d ;
     animation: rotate 60s linear infinite;
 
@@ -24,15 +24,14 @@
     position: absolute;
     top:0 ;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
 }
 
 .slider span img{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -47,7 +46,8 @@
 }
 
 #Carruselimg{
-    background: linear-gradient(to right,rgb(228, 170, 180),rgb(235, 198, 211));
+    /*background: linear-gradient(to right,rgb(228, 170, 180),rgb(235, 198, 211));*/
+    background-color: #ecc6c1;
     height: 100vh;
     display: flex;
     align-items: center;
