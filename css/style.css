@@ -76,12 +76,9 @@
 /*+++++++++++++++++++++++Seccion Portada FIN +++++++++++++++++++++++++++*/
 
 /*+++++++++++++++++++++++Seccion Pensamiento+++++++++++++++++++++++++++*/
-
 #InvPensamiento{
 
-    height: 100%;
     display: grid;
-
 
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -89,7 +86,7 @@
     ), url("../img/imgPensamiento.jpg");
     background-repeat: no-repeat;
     background-position-x: 30%;
-    background-size:cover;
+    background-size:150vh;
     background-attachment:fixed;
 
 
@@ -98,9 +95,10 @@
 #InvPensamiento > *{
 
     height: 100vh;
-    grid-gap: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: grid;
-    grid-template-rows: repeat(4,1fr);
+    align-items: center;
     
    
 }
@@ -108,30 +106,12 @@
 .penText{
     text-align: center;
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family:'Great Vibes', cursive; 
+    font-style: normal;
     font-size: 28px;
 
-    grid-row: 4/4;
 
     
-}
-
-@media  (min-width: 767px) {
-
-    #InvPensamiento > *{
-
-        height: 100vh;
-        grid-gap: 10px;
-        display: grid;
-        grid-template-rows: repeat(4,1fr);
-        grid-template-columns: repeat(3,1fr);
-       
-    }
-    .penText{
-        grid-column: 3/3;
-        font-size: 24px;
-    }
-
 }
 
 /*+++++++++++++++++++++++Seccion Pensamiento FIN+++++++++++++++++++++++++++*/
