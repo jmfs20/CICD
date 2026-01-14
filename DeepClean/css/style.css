@@ -6,7 +6,7 @@
 }
 .imagenHome {
  
-  background-image: url('/img/limpieza2.jpg');
+  background-image: url('./img/limpieza2.jpg');
   background-size: cover; /* Cubre todo el div, recortando si es necesario */
   background-repeat: no-repeat;
 }
@@ -34,8 +34,9 @@ font-size: 14px;
 .imgPrincipal2 {
 
   height: 100vh;
-  background-image: url('/img/limpieza.jpg');
+  background-image: url('./img/limpieza.jpg');
   background-size: cover; /* Cubre todo el div, recortando si es necesario */
   background-position: center;
   background-repeat: no-repeat;
+
 }
