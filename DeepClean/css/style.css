@@ -1,0 +1,41 @@
+.imgPrincipal {
+
+  height: 90vh;
+
+  
+}
+.imagenHome {
+ 
+  background-image: url('/img/limpieza2.jpg');
+  background-size: cover; /* Cubre todo el div, recortando si es necesario */
+  background-repeat: no-repeat;
+}
+.tituloDP{
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: white;
+}
+.tituloUno{
+  font-size: 20px; 
+  font-family:Homer Simpson UI; 
+  color: rgb(3, 10, 82);
+}
+
+.tituloDos{
+font-size: 14px; 
+  font-family: serif; 
+}
+
+.tituloTres{
+  font-size: 24px; 
+  font-family:'Brush Script MT', cursive;
+}
+
+.imgPrincipal2 {
+
+  height: 100vh;
+  background-image: url('/img/limpieza.jpg');
+  background-size: cover; /* Cubre todo el div, recortando si es necesario */
+  background-position: center;
+  background-repeat: no-repeat;
+}
